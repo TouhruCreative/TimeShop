@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to top, white,black);
+    margin:0px;
+    padding: 0px;
+}
+body h1{
+    color: wheat;
+}
+header{
+    color: wheat;
+    width: 100%;
+    background-color: black;
+}
+li{
+    font-size: 5vh;
+    padding: 20px;
+    display: inline-block;
+}
+.content
+{
+    text-align: left;
+    width: 90vh;
+    background-color: rgba(77, 77, 77, 0.204);
+}
+.content p{
+    width: 50vh;
+}
+.select{
+    color:aquamarine;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}  
+a:hover{
+    text-decoration: underline;
+}
+.Product{
+    background: rgba(77, 77, 77, 0.5);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    width: 30vh;
+    height: 30vh;
+    border: 2px solid white;
+    
+}
+#Products{
+    display: flex;
+}
+#response{
+    color:red;
+}
